@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+    <style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eaf2f8;
+    margin: 30px;
+}
+
+fieldset {
+    background-color: white;
+    border: 2px solid #3498db;
+    border-radius: 10px;
+    padding: 20px;
+    width: 350px;
+}
+
+legend {
+    color: #2980b9;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+label {
+    font-size: 16px;
+    color: #333;
+}
+
+input {
+    padding: 8px;
+    margin: 5px 0 12px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 95%;
+}
+
+input[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+input[type="reset"] {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #217dbb;
+}
+
+input[type="reset"]:hover {
+    background-color: #c0392b;
+}
+</style>
+</head>
+<body>
+     <fieldset>
+        <legend>Datos personales</legend>
+        <form action="" method="get">
+            Escribe tu nombre:
+            <br>
+            <input type="text" name="nombre" id="nombre">
+            <br>
+            Escribe tus apellidos:
+            <br>
+            <input type="text" name="apellidos" id="apellidos">
+            <br>
+            Selecciona tu edad:
+            <br>
+            <input type="number" name="edad" id="edad">
+            <br>
+            Selecciona el color favorito:
+            <br>
+            <input type="color" name="color" id="color">
+            <br>
+            <input type="submit" value="enviar datos">
+            <br>
+            <input type="reset" value="Borrar">
+        </form>
+    </fieldset>
+</body>
+</html>

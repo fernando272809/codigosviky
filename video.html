@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video y audio</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef2f7;
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+}
+
+h1 {
+    color: #1a5276;
+    font-size: 32px;
+}
+
+.contenedor {
+    background-color: white;
+    max-width: 600px;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px #bbb;
+    border-top: 5px solid #3498db;
+}
+
+video {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+audio {
+    width: 100%;
+    max-width: 450px;
+    margin-top: 15px;
+}
+
+p {
+    color: #555;
+    font-size: 17px;
+}
+
+hr {
+    border: 1px solid #d6eaf8;
+}
+</style>
+</head>
+<body>
+    
+    <h1>Video</h1>
+    <br>
+    <br>
+    <video width="320" height="240" controls>
+        <source src="porshe.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+    </video>
+    <br>
+    <br>
+
+    <h1>Escucha el audio</h1>
+    <audio controls>
+        <source src="horse.ogg" type="audio/ogg">
+        <source src="latin.mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>

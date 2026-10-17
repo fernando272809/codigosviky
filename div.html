@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejemplo de div</title>
+
+</head>
+<body>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef2f7;
+    margin: 0;
+    padding: 30px;
+}
+
+.mi-div {
+    background: linear-gradient(135deg, #d1f2eb, #aed6f1);
+    width: 75%;
+    min-height: 300px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    border-top: 5px solid #3498db;
+    transition: 0.3s;
+}
+
+.mi-div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.mi-div h1 {
+    color: #21618c;
+    font-size: 38px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+.mi-div p {
+    color: #34495e;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.mi-div button {
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.mi-div button:hover {
+    background-color: #1a5276;
+}
+</style>
+
+<div class="mi-div">
+    <h1>Mi página</h1>
+
+    <p>
+        Este es un div diseñado con CSS.
+        Aquí puedo agregar información,
+        imágenes o enlaces.
+    </p>
+
+    <button>Ver más</button>
+</div>
+</body>
+</html>
